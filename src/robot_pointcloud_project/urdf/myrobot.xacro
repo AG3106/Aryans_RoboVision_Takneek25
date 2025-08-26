@@ -6,7 +6,7 @@
   <xacro:property name="cameraSize" value="0.05"/>
   <xacro:property name="cameraMass" value="0.1"/>
 
-  <xacro:include filename="$(find my_robot)/urdf/robot.gazebo" />
+  <xacro:include filename="$(find robot_pointcloud_project)/urdf/robot.gazebo" />
 
 
 
@@ -64,7 +64,7 @@
         <sphere radius="0.05"/>
       </geometry>
     </visual>
- 
+
  </link>
 
   <!-- Caster joint -->
